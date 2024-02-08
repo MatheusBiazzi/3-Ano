@@ -1,0 +1,15 @@
+//program 0702;
+Var i: integer;
+    N: integer;
+
+Begin 
+    //conversar com o usuário
+    write('Informe um número:');
+    read(N);
+    //mostrar a tabuada
+    for i:=1 to 10 do 
+    Begin
+    writeln(N,'x',i:2,'=',N*i:2);
+    end;
+End.
+//Matheus H. Biazzi
