@@ -3,7 +3,7 @@ int main(){
     int tabuada,resultado,contador;
     
     printf("Digite a tabuada desejada: ");
-    scanf("%d" &tabuada);
+    scanf("%d", &tabuada);
     
     for(contador=1;contador<=10;contador++){
         resultado = tabuada*contador;
