@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+    int num;
+    printf("// Testando se um número é maior ou menor que zero! //");
+    
+    printf("\nDigite o número desejado: ");
+    scanf("%d",&num);
+    if(num >= 0){
+    printf("O número digitado %d é maior ou igual a 0",num);
+    }else{
+        printf("O número digitado %d é menor ou igual a 0",num);
+    }
+    return 0;
+}
+//Matheus H. Biazzi

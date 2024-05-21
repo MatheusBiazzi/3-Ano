@@ -1,0 +1,11 @@
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite um número: "))
+n3 = int(input("Digite um número: "))
+n4 = int(input("Digite um número: "))
+n1elev =n1 **2
+n2elev =n2 **2
+n3elev =n3 **2
+n4elev =n4 **2
+soma = n1elev+n2elev+n3elev+n4elev
+print(f"A soma de todos é igual a: {soma}")
+#Matheus H. Biazzi

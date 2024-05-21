@@ -1,0 +1,9 @@
+print("/// Dólares para Reias! ///")
+
+dolar = float(input("Digite a cotação do dolar: "))
+real = float(input("Digite quantos doláres você deseja converter para real: "))
+conversao = dolar * real
+
+print(f"Considerando a cotação {dolar} informada")
+print(f"Temos que {real} dólares x U${dolar} é: R${conversao}")
+#Matheus H. Biazzi
