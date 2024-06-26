@@ -9,6 +9,6 @@ int main(){
         resultado = tabuada*contador;
         printf("%d*%d=%d \n",tabuada,contador,resultado);
     };
-    return 0;
+    return 0; 
 }
 //Matheus H. Biazzi
